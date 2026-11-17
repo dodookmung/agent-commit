@@ -31,6 +31,13 @@ git config --local --unset user.email
 * **루트 폴더용 초기화 파일 추가:** 최상위 `agent-commit` 폴더에도 `reset.bat` 같은 파일을 만들어 위 `--unset` 명령어 두 줄을 넣어두시면, `README.md` 등을 수정할 때 바로 본인(`global`) 계정으로 돌아올 수 있습니다.
 * **`.bat` 확장자 활용:** 현재 Windows PowerShell을 사용 중이시므로 스크립트 파일 확장자를 `.sh` 대신 `.bat`으로 만드시면 별도 도구 없이 터미널에서 `.\set.bat` 입력만으로 바로 실행됩니다.
 
+---
+
+## unset해도 잘 안됨
+
+.git에 저장되면 뭔가 꼬이는듯
+그냥 git 레포지토리 폴더별로 관리하는게 나을거 같은데 
+
 ## license
 
 MIT
